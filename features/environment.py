@@ -2,7 +2,7 @@ from utils.logging_handler import LoggingHandler
 
 logger = LoggingHandler.get_logger('behave-environment')
 
-WAIT = 5
+WAIT = 8
 
 def before_all(context):
     context.config.setup_logging()
